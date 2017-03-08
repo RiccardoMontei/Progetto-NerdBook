@@ -1,16 +1,47 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Profilo: NerdBook</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+        <meta name="author" content="Riccardo Montei 65273">
+        <meta name="keywords" content="nerdbook profilo user ">    </head>
     <body>
-        <div>TODO write content</div>
+        <div id="header">
+            <div id="navbar">
+                <a href="login.html"><em>Login</em></a>
+                <a href="descrizione.html"><em>Descrizione</em></a> 
+            </div>
+            <hr/>
+            <div id="title">
+                <h1>Nerdbook</h1>
+            </div>
+        </div>
+        <br /> <br />
+        <div id="info utente">
+            <form action="demo_form.asp" method="get">
+                <label for="corto">Nome</label>
+                <input type="text" name="corto" id="nutente"/>
+                <br /> <br />
+                <label for="corto">Cognome</label>
+                <input type="text" name="corto" id="cutente"/>
+                <br /> <br />
+                <label for="lungo">Url immagine del profilo</label>
+                <textarea rows="4" cols="20" name="lungo" id="URL"></textarea>
+                <br /> <br />
+                <label for="lungo">Frase di presentazione</label>
+                <textarea rows="4" cols="20"name="lungo" id="frase"></textarea>
+                <br /> <br />
+                <label for="corto">Data di nascita</label>
+                <input type="text" name="corto" id="dutente"/>
+                <br /> <br />
+                <label for="pswd">Password</label>
+                <input type="password" name="pswd"id="pswd" />
+                <br /> <br />
+                <label for="pswd">Conferma<br />Password</label>
+                <input type="password" name="pswd"id="pswd" />
+            </form>
+        </div>
     </body>
 </html>
