@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2-apr-2017, 18.19.02
+    Author     : Riccardo Montei
+*/
+body{
+    background-color: #ffffcc;
+    font: 17px/25px "Times New Roman", Times , serif;
+}
+h1{
+    margin-top: 0px; /*Esaminato con inspector*/
+    color: #4d0000;
+    font: 35px/40px "Times New Roman", Times , serif;
+    font-weight: bold;
+}
+h2{
+    margin-top: 0px; /*Esaminato con inspector*/
+    color: #4d2600;
+    font: 25px/40px "Times New Roman", Times , serif;
+    font-weight: bold;
+}
+h3{
+    margin-top: 0px; /*Esaminato con inspector*/
+    color: #4d2600;
+    font: 20px/40px "Times New Roman", Times , serif;
+    font-weight: bold;
+}
+a:link{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000033;
+    padding-right: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    
+}
+a:visited{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000033;
+    
+}
+a:hover{
+    font-weight: bold;
+    
+}
