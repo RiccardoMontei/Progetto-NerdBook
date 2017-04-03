@@ -39,6 +39,7 @@ a:link{
     text-decoration: none;
     color: #000033;
     padding-right: 5%;
+     padding-left: 5%;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     
 }
@@ -51,31 +52,57 @@ a:hover{
     font-weight: bold;
 }
 #header{
-    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    
     background-color:  #d9d9d9;
     position: fixed;
     top: 0;
     right: 0;
-    height: 7%;
+    height: 5%;
     width: 100%;
     padding-bottom:20px;
+    border-bottom: solid 2px #4d2600;
+    margin-bottom: 0;
+}
+#title{
+    
+    position: relative;
+    top: auto;
+    left:0;
+    bottom:0;
+    right: auto;
+    
+    
+}
+.bar{
+    
+     border-left: solid 2px #4d2600;
+     padding:21px 15px;
+}
+#navbar{
+    width: 100%;
+    position: relative;
+    top: auto;
+    left:15%;
+    bottom:120%;
+    right: auto;
+    
+   
 }
 #pagebody{
-    margin-top: 100px;
+    margin-top:70px;
 }
 .Input-form{
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     background-color:  #d9d9d9;
     position: relative;
-    top:100px;
-    left:200px;
-    right:100px;
+    top:50%;
+    left:35%;
     display:inline-block;
     border: solid 2px #4d2600;
     padding: 1% 1% 1% 1%;
  }
 label{
-     width: 100px;
+    width: 100px;
     margin-left:20px;
     clear:left;
     display:block;
@@ -100,4 +127,7 @@ button{
     padding: 10px 20px;
     border: solid 2px #4d2600;
     background: #bfbfbf;
+}
+#cpswd{
+    margin-top: 5%;
 }
