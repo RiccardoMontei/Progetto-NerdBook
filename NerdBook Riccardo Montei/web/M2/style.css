@@ -7,12 +7,7 @@ and open the template in the editor.
     Created on : 2-apr-2017, 18.19.02
     Author     : Riccardo Montei
 */
-body{
-    background-color: #bfbfbf;
-    font: 17px/25px "Times New Roman", Times , serif;
-}
-
-
+/*Definizione regole per i titoli*/
 h1{
     margin-top: 0px; 
     color: #800000;
@@ -34,20 +29,26 @@ h3{
     font-weight: bold;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
+/*Definizione regole per il corpo della pagina*/
+body{
+    background-color: #bfbfbf;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/6a/f6/43/6af64325caf48f059ff36b9f6d726cc9.jpg");
+    font: 17px/25px "Times New Roman", Times , serif;
+}
+#pagebody{
+    margin-top:5%;
+}
+/*Definizione regole per liste e link*/
 a:link{
     font-size: 20px;
     text-decoration: none;
     color: #000033;
-   
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-   
-    
-}
+ }
 #Sommario a{
      padding-right: 5%;
      padding-left: 5%;
-    
-}
+ }
 a:visited{
     font-size: 20px;
     text-decoration: none;
@@ -56,44 +57,38 @@ a:visited{
 a:hover{
     font-weight: bold;
 }
-ul#list li{
+ul.list li{
+    list-style-type: none;
+}
+ul.list1 li{
     list-style-type: none;
     display: inline-block;
 }
+#title{
+      float:left;
+}
+.bar{
+    padding:19px 10px
+}
+#navbar{
+   float:left;
+   width: 70%;
+   height: auto;
+}
+#logout{
+   float:right;
+}
+/*Definizione regole per l'header*/
 #header{
     background-color:  #d9d9d9;
     position: fixed;
     top: 0;
-    right: 0;
-    height: 6%;
+    left: 0;
+    height: auto;
     width: 100%;
-    padding-bottom:20px;
     border-bottom: solid 2px #4d2600;
-    margin-bottom: 0;
 }
-#title{
-  
-    float:left;
- }
-.bar{
-    
-     border-left: solid 2px #4d2600;
-     padding:19px 10px;
-    
-}
-#navbar{
-    
-   float:left;
-   width: 70%;
-    
-}
-#logout{
-   float:right;
-   
-}
-#pagebody{
-    margin-top:70px;
-}
+/*Definizione regole per inputo forms e bottoni*/
 .Input-form{
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     background-color:  #d9d9d9;
@@ -116,8 +111,7 @@ input, textarea{
     width: 300px;
     float:left;
     margin-bottom:10px;
- 
-}
+ }
 button{
     float:left;
     margin-top: 10%;
@@ -130,29 +124,29 @@ button{
     padding: 10px 20px;
     border: solid 2px #4d2600;
     background: #bfbfbf;
-    
     width: 100%;
 }
-
-#cpswd{
-    margin-top: 5%;
-}
+/*Definizione regole per la sidebar*/
 #sidebar{
-    float: left;
+     float: left;
      box-shadow: 0 0 10px rgba(0,0,0,0.2);
      background-color:  #d9d9d9;
      border: solid 2px #4d2600;
+     padding-right:5%;
 }
+ul.list li:before{
+    content: url("http://icons.iconarchive.com/icons/aha-soft/free-large-boss/24/Superman-icon.png");
+}
+/*Definizione regole per il contenuto della pagina*/
 #content{
     float:left;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     background-color:  #d9d9d9;
     border: solid 2px #4d2600;
     margin-left: 5%;
-     width: 75%;
-   
-}
-
+    width: 75%;
+ }
+ /*Definizione regole per la pagina bacheca*/
 .post{
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border: solid 2px #4d2600;
@@ -179,16 +173,40 @@ img{
     margin-top: 7%;
     
 }
-#log{
-    border-right: solid 2px #4d2600;
-}
-#des{
-    border-right: solid 2px #4d2600;
-}
 #pbutton{
    width: 95%;
    margin: 1% 1% 1% 1%;
 }
-.side li:before{
-    content: url("http://www.hotel-r.net/im/hotel/fr/icone-1.png");
+/*Immagini per alcuni titoli, decorative*/
+#content h3:before{
+    content:url("http://icons.iconarchive.com/icons/crountch/one-piece-jolly-roger/72/Luffys-flag-icon.png");
+}
+#pagebody form h3:before{
+     content:url("http://icons.iconarchive.com/icons/crountch/one-piece-jolly-roger/72/Luffys-flag-icon.png");
+}
+/*Definizione regole perl pagina descrizione*/
+#description{
+    float:left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color:  #d9d9d9;
+    border: solid 2px #4d2600;
+    width: 100%;
+}
+#Sommario{
+    width: 100%;
+    margin-bottom: 1%;
+}
+#Sommario a{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/*Definizione regole da utilizzare per schermi piccoli e grandi
+@media only screen and (max-width: 480px){ Utilizzare il layout normale
+    
+}*/
+@media only screen and (max-width: 480px){
+    #sidebar{
+        float: bottom;
+    }
+    
 }
