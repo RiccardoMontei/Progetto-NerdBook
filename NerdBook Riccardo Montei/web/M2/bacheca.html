@@ -16,46 +16,64 @@
                 <h1>Nerdbook</h1>
             </div>
             <div id="navbar">
-                <a href="login.html" class="bar"><em>Login</em></a>
-                <a href="descrizione.html" class="bar"><em>Descrizione</em></a> 
+                <ul id="list">
+                    <li><a href="login.html" class="bar"><em>Login</em></a></li>
+                    <li><a href="descrizione.html" id="des" class="bar"><em>Descrizione</em></a></li>
+                    <li id="logout"><a href="login.html" id="log" class="bar" ><em>Logout</em></a>
+                </ul>
             </div>
         </div>
         <div id="pagebody">
+            <div id="sidebar">
+                <h3>Persone</h3>
+                <ul>
+                    <li class="side">Pina Silvestra</li>
+                    <li class="side">Mario Gioia</li>
+                    <li class="side">Alfonso Signorile</li>
+                </ul>
+                <h3>Gruppi</h3>
+                <ul>
+                    <li>Anime & Manga</li>
+                    <li>Metin2</li>
+                    <li>COD4 lan</li>
+                </ul>
+            </div>
+            <div id="content">
             <div id="post1" class="post">
-                <div id="immagineprofilo1" >
+                <div id="immagineprofilo1" class="pimg" >
                     <img title="fotoprofilo" alt="Foto di Pina" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQR3iYzJSusQLe-kXSE79ZLaOJgc7AVtE-aupLklWIf6DR5XxwG" width="40" height="40">
                 </div>
-                <div id="nomeutente1">
+                <div id="nomeutente1"  class="pname">
                     <b>Pina Silvestra</b>
                 </div>
-                <div id="postbody1">
+                <div id="postbody1" class="pbody">
                     <p>Ciao ragazzi, mi sono appena iscritta a NerdBook.
                         Non vedo l'ora di trovare il nerd giusto per me!</p>
                 </div>
             </div>
             <div id="post2" class="post">
-                <div id="immagineprofilo2">
+                <div id="immagineprofilo2" class="pimg">
                     <img title="fotoprofilo" alt="Foto di Mario Gioia"
                      src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcROkMqP46yYiBrRi6WtohGuQZMAf99LbmfE5aeKUT9OgG3G8ILYEQ" width="40" height="40">
                 </div>
-                <div id="nomeutente2">
+                <div id="nomeutente2"  class="pname">
                     <b>Mario Gioia</b>
                 </div>
-                <div id="postbody2">
+                <div id="postbody2" class="pbody">
                     <p>Vi allego questa pic stra divertente!</p>
                     <img title="Allegato" alt="Allegato"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ25KlytT5BWd-JSHBVKs9RB0VlzpPD0h5L59dGmupomN_RfDVfaw" width="120" height="120">
                 </div>
             </div>
             <div id="post3" class="post">
-                <div id="immagineprofilo3">
+                <div id="immagineprofilo3" class="pimg">
                     <img title="fotoprofilo" alt="Foto di Alfonso Signorile"
                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSeosYPEZ0_-WAh6lwW3c-iJNlz_OdPLpW8-Rf758Qv-bkp70_nQ" width="40" height="40">
                 </div>
-                <div id="nomeutente3">
+                <div id="nomeutente3" class="pname" >
                     <b>Alfonso Signorile</b>
                 </div>
-                <div id="postbody3">
+                <div id="postbody3" class="pbody">
                     <p>Domani al Lucca Comics ci sarò anche io,
                        Non perdetevi il mio bellissimo cosplay!
                        Vi allego l'evento.</p>
@@ -63,6 +81,8 @@
                         http://www.justnerd.it/2016/11/03/lucca-comics-games-2017-svelate-le-date-ufficiali-della-prossima-edizione/
                     </a>
                 </div>
+            </div>
+        
             </div>
         </div>
     </body>

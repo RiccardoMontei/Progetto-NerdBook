@@ -38,9 +38,14 @@ a:link{
     font-size: 20px;
     text-decoration: none;
     color: #000033;
-    padding-right: 5%;
-     padding-left: 5%;
+   
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+   
+    
+}
+#Sommario a{
+     padding-right: 5%;
+     padding-left: 5%;
     
 }
 a:visited{
@@ -51,41 +56,39 @@ a:visited{
 a:hover{
     font-weight: bold;
 }
+ul#list li{
+    list-style-type: none;
+    display: inline-block;
+}
 #header{
-    
     background-color:  #d9d9d9;
     position: fixed;
     top: 0;
     right: 0;
-    height: 5%;
+    height: 6%;
     width: 100%;
     padding-bottom:20px;
     border-bottom: solid 2px #4d2600;
     margin-bottom: 0;
 }
 #title{
-    
-    position: relative;
-    top: auto;
-    left:0;
-    bottom:0;
-    right: auto;
-    
-    
-}
+  
+    float:left;
+ }
 .bar{
     
      border-left: solid 2px #4d2600;
-     padding:21px 15px;
+     padding:19px 10px;
+    
 }
 #navbar{
-    width: 100%;
-    position: relative;
-    top: auto;
-    left:15%;
-    bottom:120%;
-    right: auto;
     
+   float:left;
+   width: 70%;
+    
+}
+#logout{
+   float:right;
    
 }
 #pagebody{
@@ -127,7 +130,65 @@ button{
     padding: 10px 20px;
     border: solid 2px #4d2600;
     background: #bfbfbf;
+    
+    width: 100%;
 }
+
 #cpswd{
     margin-top: 5%;
+}
+#sidebar{
+    float: left;
+     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+     background-color:  #d9d9d9;
+     border: solid 2px #4d2600;
+}
+#content{
+    float:left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color:  #d9d9d9;
+    border: solid 2px #4d2600;
+    margin-left: 5%;
+     width: 75%;
+   
+}
+
+.post{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: solid 2px #4d2600;
+    margin: 5% 5% 5% 5% ;
+}
+.pbody{
+    float:bottom;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+   
+}
+.pimg{
+    float:left;
+    margin-right: 5%;
+   
+}
+img{
+    width: 120px;
+    height: 120px;
+}
+.pname{
+    margin-bottom: 7%;
+    color: #4d2600;
+    font: 35px/40px "Times New Roman", Times , serif;
+    margin-top: 7%;
+    
+}
+#log{
+    border-right: solid 2px #4d2600;
+}
+#des{
+    border-right: solid 2px #4d2600;
+}
+#pbutton{
+   width: 95%;
+   margin: 1% 1% 1% 1%;
+}
+.side li:before{
+    content: url("http://www.hotel-r.net/im/hotel/fr/icone-1.png");
 }
