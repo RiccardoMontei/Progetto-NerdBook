@@ -113,6 +113,7 @@ ul.list1 li{
     float: left;
     text-align: left;
 }
+
 input, textarea{
     width: 300px;
     float:left;
@@ -133,9 +134,7 @@ button{
     width: 100%;
 }
 /*Definizione regole per la sidebar*/
-#sidebar, h3{
-    
-}
+
 #sidebar{
      float: left;
      box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -157,14 +156,17 @@ ul.list li:before{
  }
  /*Definizione regole per la pagina bacheca*/
 .post{
+    background-color:  #FFFFFF;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border: solid 2px #4d2600;
     margin: 5% 5% 5% 5% ;
+    
 }
 .pbody{
     background-color: #bfbfbf;
     float:bottom;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-bottom: 0;
    
 }
 .pimg{
