@@ -68,7 +68,7 @@ ul.list1 li{
       float:left;
 }
 .bar{
-    padding:19px 10px
+    padding:19px 10px;
 }
 #navbar{
    float:left;
@@ -84,7 +84,7 @@ ul.list1 li{
     position: fixed;
     top: 0;
     left: 0;
-    height: auto;
+    /*height: auto;*/
     width: 100%;
     border-bottom: solid 2px #4d2600;
 }
@@ -215,9 +215,29 @@ img{
     margin-right: 2%;
 }
 /*Definizione regole da utilizzare per schermi piccoli e grandi*/
-@media only screen and (max-width: 480px){
+/* Il progetto è stato creato su un monitor da 26 pollici quindi per monitor grandi vanno
+benissimo le regole attuali'
+@media only screen and (min-width: 1024px){
+    
+}*/
+/*schermi intermedi*/
+@media only screen and (min-width: 480px)and (max-width: 1366px){
+    #pagebody{
+        
+        margin-top: 8%;
+        
+        
+    }
+    #content{
+        margin-left: 2%;
+        float:top;
+    }
+    #Sommario a{
+            margin: 1px;
+}
     
 }
+/*per grandezze inferiori si utilizza una sola colonna*/
 @media only screen and (max-width: 480px){
     #sidebar{
        display: none;
