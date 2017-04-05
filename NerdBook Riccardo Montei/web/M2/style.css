@@ -88,7 +88,8 @@ ul.list1 li{
     width: 100%;
     border-bottom: solid 2px #4d2600;
 }
-/*Definizione regole per inputo forms e bottoni*/
+/*Definizione regole per input forms e bottoni*/
+
 .Input-form{
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     background-color:  #d9d9d9;
@@ -99,11 +100,16 @@ ul.list1 li{
     border: solid 2px #4d2600;
     padding: 1% 1% 1% 1%;
  }
-label{
+ .profilelabel{
+    margin-left:15%;
+    margin-right: 15%;
+ }
+ label{
+    font-size: 20px;
     width: 100px;
-    margin-left:20px;
+    white-space: nowrap;
+    display: inline;
     clear:left;
-    display:block;
     float: left;
     text-align: left;
 }
@@ -127,6 +133,9 @@ button{
     width: 100%;
 }
 /*Definizione regole per la sidebar*/
+#sidebar, h3{
+    
+}
 #sidebar{
      float: left;
      box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -153,29 +162,34 @@ ul.list li:before{
     margin: 5% 5% 5% 5% ;
 }
 .pbody{
+    background-color: #bfbfbf;
     float:bottom;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
    
 }
 .pimg{
     float:left;
-    margin-right: 5%;
+    margin-right: 1%;
    
 }
 img{
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
 }
 .pname{
-    margin-bottom: 7%;
+    margin-bottom: 4%;
     color: #4d2600;
     font: 35px/40px "Times New Roman", Times , serif;
-    margin-top: 7%;
+    margin-top: 0%;
     
 }
 #pbutton{
    width: 95%;
    margin: 1% 1% 1% 1%;
+}
+#postimmage{
+    width: 400px;
+    height: 120px;
 }
 /*Immagini per alcuni titoli, decorative*/
 #content h3:before{
@@ -200,13 +214,13 @@ img{
     margin-left: 2%;
     margin-right: 2%;
 }
-/*Definizione regole da utilizzare per schermi piccoli e grandi
-@media only screen and (max-width: 480px){ Utilizzare il layout normale
+/*Definizione regole da utilizzare per schermi piccoli e grandi*/
+@media only screen and (max-width: 480px){
     
-}*/
+}
 @media only screen and (max-width: 480px){
     #sidebar{
-        float: bottom;
+       display: none;
     }
     
 }
