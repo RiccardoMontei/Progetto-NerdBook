@@ -36,7 +36,7 @@ body{
     font: 17px/25px "Times New Roman", Times , serif;
 }
 #pagebody{
-    margin-top:5%;
+    margin-top:7%;
 }
 /*Definizione regole per liste e link*/
 a:link{
@@ -64,6 +64,9 @@ ul.list1 li{
     list-style-type: none;
     display: inline-block;
 }
+.list{
+    margin-right:5%;
+}
 #title{
       float:left;
 }
@@ -74,6 +77,7 @@ ul.list1 li{
    float:left;
    width: 70%;
    height: auto;
+   margin-top: 1%; 
 }
 #logout{
    float:right;
@@ -84,7 +88,6 @@ ul.list1 li{
     position: fixed;
     top: 0;
     left: 0;
-    /*height: auto;*/
     width: 100%;
     border-bottom: solid 2px #4d2600;
 }
@@ -98,7 +101,9 @@ ul.list1 li{
     left:35%;
     display:inline-block;
     border: solid 2px #4d2600;
-    padding: 1% 1% 1% 1%;
+ }
+ #loginform{
+     margin: 2% 2% 2% 2%;
  }
  .profilelabel{
     margin-left:15%;
@@ -133,6 +138,10 @@ button{
     background: #bfbfbf;
     width: 100%;
 }
+#lbutton{
+   width: 95%;
+   margin: 3% 3% 3% 3%;
+}
 /*Definizione regole per la sidebar*/
 
 #sidebar{
@@ -140,10 +149,13 @@ button{
      box-shadow: 0 0 10px rgba(0,0,0,0.2);
      background-color:  #d9d9d9;
      border: solid 2px #4d2600;
-     padding-right:5%;
+    
+}
+#sidebar, h3:before{
+    content:url("http://icons.iconarchive.com/icons/crountch/one-piece-jolly-roger/48/Barbe-Blanche-icon.png");
 }
 ul.list li:before{
-    content: url("http://icons.iconarchive.com/icons/aha-soft/free-large-boss/24/Superman-icon.png");
+    content: url("http://icons.iconarchive.com/icons/crountch/one-piece-character/32/Chopper-icon.png");
 }
 /*Definizione regole per il contenuto della pagina*/
 #content{
@@ -156,17 +168,15 @@ ul.list li:before{
  }
  /*Definizione regole per la pagina bacheca*/
 .post{
+    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSiC7gmEnHynv9mwcunASxkkNCs9ALGF8ykn32RpH8pv0fI5v9lnw");
     background-color:  #FFFFFF;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border: solid 2px #4d2600;
     margin: 5% 5% 5% 5% ;
     
 }
 .pbody{
-    background-color: #bfbfbf;
+   
     float:bottom;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    margin-bottom: 0;
    
 }
 .pimg{
@@ -182,7 +192,8 @@ img{
     margin-bottom: 4%;
     color: #4d2600;
     font: 35px/40px "Times New Roman", Times , serif;
-    margin-top: 0%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #bfbfbf;
     
 }
 #pbutton{
@@ -194,13 +205,16 @@ img{
     height: 120px;
 }
 /*Immagini per alcuni titoli, decorative*/
+#title,h1:before{
+    content: url("http://icons.iconarchive.com/icons/musett/dragon-ballz/72/Dragon-Ball-icon.png");
+}
 #content h3:before{
     content:url("http://icons.iconarchive.com/icons/crountch/one-piece-jolly-roger/72/Luffys-flag-icon.png");
 }
 #pagebody form h3:before{
      content:url("http://icons.iconarchive.com/icons/crountch/one-piece-jolly-roger/72/Luffys-flag-icon.png");
 }
-/*Definizione regole perl pagina descrizione*/
+/*Definizione regole per pagina descrizione*/
 #description{
     float:left;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -216,6 +230,10 @@ img{
     margin-left: 2%;
     margin-right: 2%;
 }
+#descriptionTitle:before{
+     content:url("http://icons.iconarchive.com/icons/crountch/one-piece-jolly-roger/72/Luffys-flag-icon.png");
+    
+}
 /*Definizione regole da utilizzare per schermi piccoli e grandi*/
 /* Il progetto è stato creato su un monitor da 26 pollici quindi per monitor grandi vanno
 benissimo le regole attuali'
@@ -226,7 +244,7 @@ benissimo le regole attuali'
 @media only screen and (min-width: 480px)and (max-width: 1366px){
     #pagebody{
         
-        margin-top: 8%;
+        margin-top: 10%;
         
         
     }
