@@ -59,8 +59,10 @@ a:hover{
 }
 ul.list li{
     list-style-type: none;
+    
 }
 ul.list1 li{
+    
     list-style-type: none;
     display: inline-block;
 }
@@ -106,8 +108,9 @@ ul.list1 li{
      margin: 2% 2% 2% 2%;
  }
  .profilelabel{
-    margin-left:15%;
-    margin-right: 15%;
+        margin-left: 15%;
+        margin-right: 15%;
+        padding-left: 15%;
  }
  label{
     font-size: 20px;
@@ -123,6 +126,7 @@ input, textarea{
     width: 300px;
     float:left;
     margin-bottom:10px;
+    border-radius: 20px 20px 20px;
  }
 button{
     float:left;
@@ -137,6 +141,7 @@ button{
     border: solid 2px #4d2600;
     background: #bfbfbf;
     width: 100%;
+    border-radius: 20px 20px 20px;
 }
 #lbutton{
    width: 95%;
@@ -151,10 +156,10 @@ button{
      border: solid 2px #4d2600;
     
 }
-#sidebar, h3:before{
+.h3immage:before{
     content:url("http://icons.iconarchive.com/icons/crountch/one-piece-jolly-roger/48/Barbe-Blanche-icon.png");
 }
-ul.list li:before{
+#sidebar, ul.list li:before{
     content: url("http://icons.iconarchive.com/icons/crountch/one-piece-character/32/Chopper-icon.png");
 }
 /*Definizione regole per il contenuto della pagina*/
@@ -168,7 +173,7 @@ ul.list li:before{
  }
  /*Definizione regole per la pagina bacheca*/
 .post{
-    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSiC7gmEnHynv9mwcunASxkkNCs9ALGF8ykn32RpH8pv0fI5v9lnw");
+    background-image: url("http://harmattangh.com/wp-content/uploads/2016/06/white-background-image-6.png");
     background-color:  #FFFFFF;
     border: solid 2px #4d2600;
     margin: 5% 5% 5% 5% ;
@@ -187,6 +192,7 @@ ul.list li:before{
 img{
     width: 80px;
     height: 80px;
+    border-radius: 0  0 40px 0;
 }
 .pname{
     margin-bottom: 4%;
@@ -201,6 +207,7 @@ img{
    margin: 1% 1% 1% 1%;
 }
 #postimmage{
+    border-radius: inherit;
     width: 400px;
     height: 120px;
 }
