@@ -244,5 +244,21 @@ benissimo le regole attuali'
     #sidebar{
        display: none;
     }
-    
+    #navbar{
+        float: bottom;
+    }
+     #pagebody{
+         float:left;
+         margin-left: 0;
+         margin-top: 50%;
+         
+    }
+    .Input-form{
+        position: relative;
+        left: 1%;
+    }
+    #postimmage{
+    width: 100px;
+    height: 40px;
+}
 }
