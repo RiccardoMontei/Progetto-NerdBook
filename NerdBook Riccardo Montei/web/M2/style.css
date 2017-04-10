@@ -45,10 +45,7 @@ a:link{
     color: #000033;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
  }
-#Sommario a{
-     padding-right: 5%;
-     padding-left: 5%;
- }
+
 a:visited{
     font-size: 20px;
     text-decoration: none;
@@ -233,8 +230,11 @@ img{
     margin-bottom: 1%;
 }
 #Sommario a{
-    margin-left: 2%;
-    margin-right: 2%;
+    
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-right: 4%;
+    padding-left: 4%;
 }
 #descriptionTitle:before{
      content:url("http://icons.iconarchive.com/icons/crountch/one-piece-jolly-roger/72/Luffys-flag-icon.png");
@@ -247,7 +247,7 @@ benissimo le regole attuali'
     
 }*/
 /*schermi intermedi*/
-@media only screen and (min-width: 480px)and (max-width: 1366px){
+@media only screen and (min-width: 480px)and (max-width: 1024px){
     #pagebody{
         
         margin-top: 15%;
