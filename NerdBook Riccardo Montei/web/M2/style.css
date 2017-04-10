@@ -285,4 +285,7 @@ benissimo le regole attuali'
     width: 100px;
     height: 40px;
 }
+#Sommario, a{
+    display: list-item;
+}
 }
