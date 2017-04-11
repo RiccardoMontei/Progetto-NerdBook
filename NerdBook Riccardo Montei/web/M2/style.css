@@ -261,6 +261,10 @@ benissimo le regole attuali'
     #Sommario a{
             margin: 1px;
 }
+    #postimmage{
+        width: 100px;
+        height: 40px;
+    }
     
 }
 /*per grandezze inferiori si utilizza una sola colonna*/
@@ -269,7 +273,14 @@ benissimo le regole attuali'
        display: none;
     }
     #navbar{
-        float: bottom;
+     border-bottom: solid 2px #4d2600;
+     background-color: #d9d9d9;
+     position: relative;
+     top: 59px;
+     left: -292px;
+    }
+    #logout{
+        float:left;
     }
      #pagebody{
          float:left;
@@ -284,8 +295,19 @@ benissimo le regole attuali'
     #postimmage{
     width: 100px;
     height: 40px;
-}
-#Sommario, a{
-    display: list-item;
-}
+    }
+    #Sommario, a{
+        display: inherit;
+    }
+    input, textarea {
+        width: 50%;
+        margin-left: 0%;
+    }
+    #content{
+        width: 90%;
+        margin-left: 7%;
+    }
+    .profilelabel{
+        padding-left: 1%;
+    }
 }
