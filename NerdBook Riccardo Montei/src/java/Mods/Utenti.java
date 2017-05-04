@@ -126,7 +126,7 @@ public class Utenti {
         pass = "";
         frase = null;
     }
-    @Override
+   
     public boolean equals(Object u) {
         if(u == null) return false;
         if (u instanceof Utenti)

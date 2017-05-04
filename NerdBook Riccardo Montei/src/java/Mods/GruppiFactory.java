@@ -23,21 +23,21 @@ public class GruppiFactory {
      private GruppiFactory()
     {
         Gruppi gruppo1 = new Gruppi();
-        gruppo1.setNome("gruppo 1");
+        gruppo1.setNome("Primo gruppo");
         gruppo1.setDescrizione("Anime & Manga");
         gruppo1.setFondatore(UtentiFactory.getInstance().getUserByName("Utente 1"));
         gruppo1.setId(1);
         gruppo1.setUrlimmagineprofilo("");
         
         Gruppi gruppo2 = new Gruppi();
-        gruppo2.setNome("Gruppo 2");
+        gruppo2.setNome("Secondo Gruppo");
         gruppo2.setDescrizione("Metin2");
         gruppo2.setFondatore(UtentiFactory.getInstance().getUserByName("Utente 2"));
         gruppo2.setId(2);
         gruppo2.setUrlimmagineprofilo("");
         
         Gruppi gruppo3 = new Gruppi();
-        gruppo3.setNome("Gruppo 3");
+        gruppo3.setNome("Terzo Gruppo");
         gruppo3.setDescrizione("COD 4 Lan");
         gruppo3.setFondatore(UtentiFactory.getInstance().getUserByName("Utente 3"));
         gruppo3.setId(3);

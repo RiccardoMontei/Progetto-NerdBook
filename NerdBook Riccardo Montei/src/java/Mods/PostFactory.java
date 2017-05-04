@@ -29,39 +29,37 @@ public class PostFactory {
         
         Post post1 = new Post();
         post1.setAutore(UtentiFactory.getInstance().getUserByName("Utente 1"));
-        post1.setContenuto("Cisco: \"It looks like the Vacuum.\"\n" +
-"                   Jesse: \"Uh, what's the Vacumm?\"\n" +
-"                   Cisco: \"No Fringe on Earth-2. Noted.\"");
+        post1.setContenuto("Ciao raggaaa :)");
         post1.setId(1);
         post1.setGruppo(null); 
         post1.setDestinatario(null);
         
         Post post2 = new Post();
         post2.setAutore(UtentiFactory.getInstance().getUserByName("Utente 2"));
-        post2.setContenuto("img/o.jpg");
+        post2.setContenuto("");
         post2.setId(2);
         post2.setGruppo(null); 
         post2.setDestinatario(null);
         
         Post post3 = new Post();
         post3.setAutore(UtentiFactory.getInstance().getUserByName("Utente 3"));
-        post3.setContenuto("https://www.masseffect.com/it-it/andromeda-initiative");
+        post3.setContenuto("");
         post3.setId(3);
         post3.setGruppo(null);
         post3.setDestinatario(null);
         
         Post post4 = new Post();
         post4.setAutore(UtentiFactory.getInstance().getUserByName("Utente 1"));
-        post4.setContenuto("Corri Barry, corri!");
+        post4.setContenuto("");
         post4.setId(4);
-        post4.setGruppo(GruppiFactory.getInstance().getGroupByName("Gruppo 1")); 
+        post4.setGruppo(GruppiFactory.getInstance().getGroupByName("Primo Gruppo")); 
         post4.setDestinatario(null);
         
         Post post5 = new Post();
         post5.setAutore(UtentiFactory.getInstance().getUserByName("Utente 2"));
-        post5.setContenuto("Chiamano questi eventi \"Lo schema\", come se qualcuno facesse esperimenti usando il mondo come laboratorio! Adesso ha visto! Adesso sa!");
+        post5.setContenuto("");
         post5.setId(5);
-        post5.setGruppo(GruppiFactory.getInstance().getGroupByName("Gruppo 2")); 
+        post5.setGruppo(GruppiFactory.getInstance().getGroupByName("Secondo Gruppo")); 
         post5.setDestinatario(null);
         
         post.add(post1);
