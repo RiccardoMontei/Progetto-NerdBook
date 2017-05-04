@@ -1,0 +1,313 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2-apr-2017, 18.19.02
+    Author     : Riccardo Montei
+*/
+/*Definizione regole per i titoli*/
+h1{
+    margin-top: 0px; 
+    color: #800000;
+    font: 45px/50px "Times New Roman", Times , serif;
+    font-weight: bold;
+    
+}
+h2{
+    margin-top: 0px; 
+    color: #4d2600;
+    font: 40px/45px "Times New Roman", Times , serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+h3{
+    margin-top: 0px; 
+    color: #4d2600;
+    font: 35px/40px "Times New Roman", Times , serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+/*Definizione regole per il corpo della pagina*/
+body{
+    background-color: #bfbfbf;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/6a/f6/43/6af64325caf48f059ff36b9f6d726cc9.jpg");
+    font: 17px/25px "Times New Roman", Times , serif;
+}
+#pagebody{
+    margin-top:10%;
+}
+/*Definizione regole per liste e link*/
+a:link{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000033;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+ }
+
+a:visited{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000033;
+}
+a:hover{
+    font-weight: bold;
+}
+ul.list li{
+    list-style-type: none;
+    
+}
+ul.list1 li{
+    
+    list-style-type: none;
+    display: inline-block;
+}
+.list{
+    margin-right:5%;
+}
+#title{
+      float:left;
+}
+.bar{
+    padding:19px 10px;
+}
+#navbar{
+   float:left;
+   width: 70%;
+   height: auto;
+   margin-top: 1%; 
+}
+#logout{
+   float:right;
+}
+/*Definizione regole per l'header*/
+#header{
+    background-color:  #d9d9d9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 2000px;
+    border-bottom: solid 2px #4d2600;
+}
+/*Definizione regole per input forms e bottoni*/
+
+.Input-form{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color:  #d9d9d9;
+    position: relative;
+    top:50%;
+    left:35%;
+    display:inline-block;
+    border: solid 2px #4d2600;
+ }
+ #loginform{
+     margin: 2% 2% 2% 2%;
+ }
+ .profilelabel{
+        margin-right: 15%;
+        padding-left: 15%;
+ }
+ label{
+    font-size: 20px;
+    width: 100px;
+    white-space: nowrap;
+    display: inline;
+    clear:left;
+    float: left;
+    text-align: left;
+}
+
+input, textarea{
+    width: 300px;
+    float:left;
+    margin-bottom:10px;
+    border-radius: 20px 20px 20px;
+ }
+button{
+    float:left;
+    margin-top: 10%;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 20px "Times New Roman", Times , serif;
+    color: #4d2600;
+    padding: 10px 20px;
+    border: solid 2px #4d2600;
+    background: #bfbfbf;
+    width: 100%;
+    border-radius: 20px 20px 20px;
+}
+#lbutton{
+   width: 95%;
+   margin: 3% 3% 3% 3%;
+}
+/*Definizione regole per la sidebar*/
+
+#sidebar{
+     float: left;
+     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+     background-color:  #d9d9d9;
+     border: solid 2px #4d2600;
+    
+}
+.h3immage:before{
+    content:url("http://icons.iconarchive.com/icons/crountch/one-piece-jolly-roger/48/Barbe-Blanche-icon.png");
+}
+#sidebar, ul.list li:before{
+    content: url("http://icons.iconarchive.com/icons/crountch/one-piece-character/32/Chopper-icon.png");
+}
+/*Definizione regole per il contenuto della pagina*/
+#content{
+    float:left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color:  #d9d9d9;
+    border: solid 2px #4d2600;
+    margin-left: 2%;
+    width: 50%;
+ }
+ /*Definizione regole per la pagina bacheca*/
+.post{
+    background-image: url("http://harmattangh.com/wp-content/uploads/2016/06/white-background-image-6.png");
+    background-color:  #FFFFFF;
+    border: solid 2px #4d2600;
+    margin: 5% 5% 5% 5% ;
+    
+}
+.pbody{
+   
+    float:bottom;
+   
+}
+.pimg{
+    float:left;
+    margin-right: 1%;
+   
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 0  0 40px 0;
+}
+.pname{
+    margin-bottom: 4%;
+    color: #4d2600;
+    font: 35px/40px "Times New Roman", Times , serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #bfbfbf;
+    
+}
+#pbutton{
+   width: 95%;
+   margin: 1% 1% 1% 1%;
+}
+#postimmage{
+    border-radius: inherit;
+    width: 400px;
+    height: 120px;
+}
+/*Immagini per alcuni titoli, decorative*/
+#title,h1:before{
+    content: url("http://icons.iconarchive.com/icons/musett/dragon-ballz/72/Dragon-Ball-icon.png");
+}
+#content h3:before{
+    content:url("http://icons.iconarchive.com/icons/crountch/one-piece-jolly-roger/72/Luffys-flag-icon.png");
+}
+#pagebody form h3:before{
+     content:url("http://icons.iconarchive.com/icons/crountch/one-piece-jolly-roger/72/Luffys-flag-icon.png");
+}
+/*Definizione regole per pagina descrizione*/
+#description{
+    float:left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color:  #d9d9d9;
+    border: solid 2px #4d2600;
+    width: 100%;
+}
+#Sommario{
+    width: 100%;
+    margin-bottom: 1%;
+}
+#Sommario a{
+    
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+#descriptionTitle:before{
+     content:url("http://icons.iconarchive.com/icons/crountch/one-piece-jolly-roger/72/Luffys-flag-icon.png");
+    
+}
+/*Definizione regole da utilizzare per schermi piccoli e grandi*/
+/* Il progetto è stato creato su un monitor da 26 pollici quindi per monitor grandi vanno
+benissimo le regole attuali'
+@media only screen and (min-width: 1024px){
+    
+}*/
+/*schermi intermedi*/
+@media only screen and (min-width: 480px)and (max-width: 1024px){
+    #pagebody{
+        
+        margin-top: 15%;
+        
+        
+    }
+    #content{
+        margin-left: 2%;
+        float:top;
+    }
+    #Sommario a{
+            margin: 1px;
+}
+    #postimmage{
+        width: 100px;
+        height: 40px;
+    }
+    
+}
+/*per grandezze inferiori si utilizza una sola colonna*/
+@media only screen and (max-width: 480px){
+    #sidebar{
+       display: none;
+    }
+    #navbar{
+     border-bottom: solid 2px #4d2600;
+     background-color: #d9d9d9;
+     position: relative;
+     top: 59px;
+     left: -292px;
+    }
+    #logout{
+        float:left;
+    }
+     #pagebody{
+         float:left;
+         margin-left: 0;
+         margin-top: 50%;
+         
+    }
+    .Input-form{
+        position: relative;
+        left: 1%;
+    }
+    #postimmage{
+    width: 100px;
+    height: 40px;
+    }
+    #Sommario, a{
+        display: inherit;
+    }
+    input, textarea {
+        width: 50%;
+        margin-left: 0%;
+    }
+    #content{
+        width: 90%;
+        margin-left: 7%;
+    }
+    .profilelabel{
+        padding-left: 1%;
+    }
+}
